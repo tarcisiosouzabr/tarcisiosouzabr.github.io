@@ -1,0 +1,19 @@
+.profile-img{
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+}
+
+.country-img{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.emoji-font{
+    font-size: 27px;
+    vertical-align: middle;
+}
+
+.social-icon{
+    font-size: 27px;
+}
