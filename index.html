@@ -20,7 +20,7 @@
   </head>
   <body>
     <div class="" >
-      <div class="row container" style="margin-top: 3em; margin-bottom: 3em">
+      <div class="row container" style="margin-top: 3em; margin-bottom: 3em; margin-left: auto; margin-right: auto;">
         <div class="col-3">
           <div class="card" style="width: 18rem">
             <img
@@ -86,7 +86,8 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-3">
+          <h3>Skills</h3>
           <div id="accordion">
             <div class="card">
               <div
@@ -491,71 +492,97 @@
             </div>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-6">
           <div class="row">
           <h3>Projects</h3>
-          <div class="card col-6"  style="width: 15rem;">
-            <div id="carouselExampleIndicators" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="col-6">
+            <div class="card">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/projects/WebApp1.png" style="min-height: 200px;" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/projects/WebApp2.png" style="min-height: 200px;" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/projects/WebApp3.png" style="min-height: 200px;" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./assets/img/Flag_of_Brazil.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/img/Flag_of_the_United_States.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/img/Flag_of_the_United_States.png" class="d-block w-100" alt="...">
-                </div>
+              <div class="card-body">
+                <h5>EasySoccer</h5>
+                <span
+                ><a href="https://github.com/tarcisiosouzabr/EasySoccer.Api"
+                  ><i class="fa-brands fa-github social-icon"></i></a
+                ></span>
+                <p class="card-text">EasySoccer was my first genuine attempt to launch a SaaS business. It is a comprehensive platform that includes a Web App, Web API for management, and a Mobile App designed specifically for Soccer Pitch owners.</p>
+                <h6 class="card-title">Tech Stack</h6>
+                <span class="badge text-bg-dark">C#</span>
+                <span class="badge text-bg-dark">.NET</span>
+                <span class="badge text-bg-dark">TypeScript</span>
+                <span class="badge text-bg-dark">Angular</span>
+                <span class="badge text-bg-dark">Asp.NET WEB API</span>
+                <span class="badge text-bg-dark">Entity Framework</span>
+                <span class="badge text-bg-dark">Azure</span>
+
+
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="card-body">
-              <h5>EasySoccer</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card col-6" style="margin-left: 1rem; width: 15rem;">
-            <div id="carouselExampleIndicators" class="carousel slide">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <div class="col-6">
+            <div class="card">
+              <div id="mobileCarousel" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#mobileCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#mobileCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#mobileCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/projects/Mobile1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/projects/Mobile2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/projects/Mobile3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mobileCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mobileCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./assets/img/Flag_of_Brazil.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/img/Flag_of_the_United_States.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./assets/img/Flag_of_the_United_States.png" class="d-block w-100" alt="...">
-                </div>
+              <div class="card-body">
+                <h5>EasySoccer Mobile</h5>
+                <span
+                ><a href="https://github.com/tarcisiosouzabr/EasySoccer.Mobile"
+                  ><i class="fa-brands fa-github social-icon"></i></a
+                ></span>
+                <p class="card-text">EasySoccer Mobile was developed with the primary objective of providing comprehensive support for the entire SaaS platform. This versatile mobile application serves as an indispensable companion to the EasySoccer ecosystem, ensuring seamless accessibility and functionality across various environments.</p>
+                <h6 class="card-title">Tech Stack</h6>
+                <span class="badge text-bg-dark">C#</span>
+                <span class="badge text-bg-dark">.NET</span>
+                <span class="badge text-bg-dark">Xamarin</span>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="card-body">
-              <h5>EasySoccer</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
